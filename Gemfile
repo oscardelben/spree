@@ -4,7 +4,6 @@ gem 'json'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'pg'
-gem 'deface', :git => "git://github.com/radar/deface"
 
 # Gems used only for assets and not required
 # in production environments by default.
