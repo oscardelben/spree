@@ -62,8 +62,3 @@ if defined? CanCan::Ability
     end
   end
 end
-
-ActiveSupport::Notifications.subscribe("process_action.action_controller") do |*args|
-  puts "PROCESSING AN ACTION"
-  p args
-end
